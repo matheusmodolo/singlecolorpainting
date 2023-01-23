@@ -215,6 +215,11 @@ void draw() {
   text("Verde: " + verde, 25, 48);
   fill(0, 0, azul);
   text("Azul: " + azul, 25, 72);
+  
+  //Mostra a cor selecionada
+  fill(vermelho, verde, azul);
+  ellipseMode(CORNER);
+  ellipse(25, 85, 20, 20);
 
   //Mostra o tamanho do pincel.
   fill(0);
